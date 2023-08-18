@@ -1,4 +1,15 @@
-body {
+body.principal {
   background-color: black;
   color: white;
+  text-align: center;
+}
+
+.secoes{
+  background-color: aqua;
+}
+.principal{
+  background-color: aquamarine;
+}
+img{
+  text-align: center;
 }
