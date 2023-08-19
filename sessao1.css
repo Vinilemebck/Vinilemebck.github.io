@@ -1,15 +1,23 @@
-body.principal {
+body {
     background-color: black;
     color: white;
     text-align: center;
   }
   
-  .secoes{
-    background-color: aqua;
-  }
   .principal{
-    background-color: aquamarine;
-  }
-  img{
+    background-color: rgb(255, 255, 255);
     text-align: center;
   }
+  .img{
+    text-align: center;
+  }
+  .titulo-principal{
+    background: linear-gradient(white, black);
+    text-align: center;
+    padding: 20px; 
+    margin: 0px 0px 20px 0px; 
+   }
+   .btn a{
+    background-color: blueviolet;
+    text-align: end;
+   }
