@@ -1,11 +1,15 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
 body.principal {
  background-color: #444444;
   text-align: center;
 }
 
-body{
-  background-color: #444444;
-}
+
 .sessao {
   color: blue;
 }
@@ -29,6 +33,10 @@ header {
 
 header img {
   width: 300px;
+}
+
+li{
+  font-size: 20px;
 }
 
 .nome {
@@ -58,7 +66,9 @@ header img {
   text-decoration: none;
 }
 
-
+.instagram{
+  background-color: white;
+}
 
 .footer {
   color: blue;
@@ -82,3 +92,62 @@ footer p{
 	font-size: 1.3em;
 	margin: 10px 0px;
 }
+.btn_social {
+            width: 100%;
+            float: left;
+            display: flex;
+            margin: auto;
+        }
+
+        .btn_social ul {
+            width: auto;
+            margin: auto;
+            float: left;
+            display: block;
+        }
+
+        .btn_social ul li {
+            position: relative;
+            background: #555555;
+            list-style: none;
+            float: left;
+            margin: 5px;
+            z-index: 1;
+            overflow: hidden;
+            border-radius: 3px;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .btn_social ul li a {
+            width: 50px;
+            height: 50px;
+            line-height: 53px;
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            transition: .4s;
+        }
+
+        .btn_social ul li::before {
+            transition: 0.4s;
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            top: 90%;
+            left: 0;
+            background: blue;
+            z-index: -1;
+            transform: scale(1);
+            transition: .4s;
+        }
+
+        .btn_social ul li:hover::before {
+            transition: 0.4s;
+            top: 0%;
+        }
+
+        .btn_social ul li a:hover {
+            color: #555555;
+        }
