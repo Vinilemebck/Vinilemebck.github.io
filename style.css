@@ -11,7 +11,7 @@ body.principal {
 
 
 .sessao {
-  color: blue;
+  color: greenyellow;
 }
 
 ul .A {
@@ -40,7 +40,7 @@ li{
 }
 
 .nome {
-  color: blue;
+  color: greenyellow;
 }
 .caixa {
   position: relative;
@@ -71,7 +71,7 @@ li{
 }
 
 .footer {
-  color: blue;
+  color: greenyellow;
   margin: 0;
 }
 
@@ -137,7 +137,7 @@ footer p{
             height: 100%;
             top: 90%;
             left: 0;
-            background: blue;
+            background: greenyellow;
             z-index: -1;
             transform: scale(1);
             transition: .4s;

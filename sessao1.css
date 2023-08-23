@@ -1,23 +1,83 @@
 body {
-    background-color: black;
-    color: white;
-    text-align: center;
-  }
-  
-  .principal{
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-  }
-  .img{
-    text-align: center;
-  }
-  .titulo-principal{
-    background: linear-gradient(white, black);
-    text-align: center;
-    padding: 20px; 
-    margin: 0px 0px 20px 0px; 
-   }
-   .btn a{
-    background-color: blueviolet;
-    text-align: end;
-   }
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.principal {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+}
+
+.titulo-principal {
+  background: linear-gradient(white, black);
+  text-align: center;
+  padding: 20px;
+  margin: 0px 0px 20px 0px;
+}
+
+.btn a {
+  background-color: blueviolet;
+  text-align: end;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #4285f4;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+ list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 40px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #4285f4;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Estilizando os links */
+a {
+  color: #4285f4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+
+
+  color: #1a73e8;
+}
